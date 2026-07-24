@@ -26,6 +26,7 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(control_msgs REQUIRED)
+find_package(ament_index_cpp REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(om_aiv_msg REQUIRED)
@@ -77,6 +78,7 @@ ament_target_dependencies(goals_marker
  rclcpp
  std_msgs
  visualization_msgs
+ ament_index_cpp
  geometry_msgs
  tf2_ros
  om_aiv_msg
@@ -91,6 +93,7 @@ ament_target_dependencies(data_points_marker
   std_msgs
   sensor_msgs
   geometry_msgs
+  ament_index_cpp
   control_msgs
   tf2_ros
   om_aiv_msg
@@ -109,6 +112,7 @@ ament_target_dependencies(laser_scans
   geometry_msgs
   control_msgs
   tf2_ros
+  ament_index_cpp
   om_aiv_msg
   visualization_msgs
   nav_msgs
