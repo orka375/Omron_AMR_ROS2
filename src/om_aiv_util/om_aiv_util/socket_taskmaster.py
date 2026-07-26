@@ -1,5 +1,5 @@
 import io
-import selectors2 as selectors #CHANGED
+# import selectors2 as selectors #CHANGED
 import selectors
 import socket
 import traceback
